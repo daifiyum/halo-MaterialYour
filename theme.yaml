@@ -1,0 +1,17 @@
+apiVersion: theme.halo.run/v1alpha1
+kind: Theme
+metadata:
+  name: theme-materialyour
+spec:
+  displayName: MaterialYour
+  author:
+    name: dnxrzl
+    website: "https://www.xxx.com/"
+  description: Halo 2.0 Theme base on Thymeleaf
+  logo: "https://halo.run/logo"
+  website: "https://www.xxx.com/"
+  repo: "https://github.com/daifiyum/halo-theme-MaterialYour/blob/next/"
+  settingName: "theme-materialyour-setting"
+  configMapName: "theme-materialyour-configMap"
+  version: "2.0"
+  require: "*"
